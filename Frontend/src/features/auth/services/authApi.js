@@ -5,7 +5,7 @@ import axios from "axios"
 export async function register({username, email, password}){
 
     try{
-        const response = await axios.post("https://interviewai-8l88.onrender.com/api/auth/register",
+        const response = await axios.post("https://interviewai-backend-g3s2.onrender.com/api/auth/register",
          {
             username, email, password
         },
@@ -24,7 +24,7 @@ export async function register({username, email, password}){
 
 export async function login({email, password}){
     try{
-        const response = await axios.post("https://interviewai-8l88.onrender.com/api/auth/login",
+        const response = await axios.post("https://interviewai-backend-g3s2.onrender.com/api/auth/login",
             {email, password},
             {withCredentials : true}
         )
@@ -36,7 +36,7 @@ export async function login({email, password}){
 
 export async function logout(){
     try{
-        const response = await axios.get("https://interviewai-8l88.onrender.com/api/auth/logout",
+        const response = await axios.get("https://interviewai-backend-g3s2.onrender.com/api/auth/logout",
             {withCredentials: true}
         )
         return response.data
@@ -50,7 +50,7 @@ export async function logout(){
 
 export async function getme(){
     try{
-        const response = await axios.get("https://interviewai-8l88.onrender.com/api/auth/get-me", 
+        const response = await axios.get("https://interviewai-backend-g3s2.onrender.com/api/auth/get-me", 
             {
                 withCredentials : true
             }
