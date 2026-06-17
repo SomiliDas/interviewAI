@@ -15,7 +15,7 @@ export async function generateInterviewReport({jobDescription, selfDescription, 
     
 
     try{
-            const response = await axios.post("https://interviewai-8l88.onrender.com/api/interview/", formData, {
+            const response = await axios.post("https://interviewai-backend-g3s2.onrender.com/api/interview/", formData, {
                             withCredentials: true,
                             headers:{
                                 "Content-Type" : "multipart/form-data"
@@ -36,7 +36,7 @@ export async function generateInterviewReport({jobDescription, selfDescription, 
  */
 export async function getInterviewReportById(interviewId){
     try{
-        const response = await axios.get(`https://interviewai-8l88.onrender.com/api/interview/report/${interviewId}`, {
+        const response = await axios.get(`https://interviewai-backend-g3s2.onrender.com/api/interview/report/${interviewId}`, {
             withCredentials: true
         })
 
@@ -54,7 +54,7 @@ export async function getInterviewReportById(interviewId){
  */
 export async function getAllInterviewReports(){
     try{
-        const response = await axios.get("https://interviewai-8l88.onrender.com/api/interview/reports", {
+        const response = await axios.get("https://interviewai-backend-g3s2.onrender.com/api/interview/reports", {
             withCredentials: true
         })
         return response.data
@@ -73,7 +73,7 @@ export async function getAllInterviewReports(){
 export async function generateResumePdf({interviewId}){
 
     try{
-        const response = await axios.post(`https://interviewai-8l88.onrender.com/api/interview/resume/pdf/${interviewId}`, {},{
+        const response = await axios.post(`https://interviewai-backend-g3s2.onrender.com/api/interview/resume/pdf/${interviewId}`, {},{
             withCredentials: true,
             responseType: "blob"
         })
