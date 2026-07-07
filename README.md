@@ -70,45 +70,57 @@ InterviewAI is an AI-powered interview preparation platform built using the **ME
 
 ## 📸 Screenshots
 
-### Login Page
+### 🔐 Authentication
 
+#### Login Page
 ![Login Page](screenshots/loginPage.png)
 
----
-
-### Registration Page
-
+#### Registration Page
 ![Registration Page](screenshots/registerPage.png)
 
 ---
 
-### AI-Generated Resume
+### 🏠 User Dashboard
 
-![AI Generated Resume](screenshots/AI-Generated-Resume.png)
+#### Dashboard Overview
+![Dashboard](screenshots/dashboard1.png)
 
----
-
-### Behavioural Interview Questions
-
-![Behavioural Questions](screenshots/behaviouralQuestions1.png)
+#### Dashboard Details
+![Dashboard Details](screenshots/dashboard2.png)
 
 ---
 
-### Technical Interview Questions
+### 🤖 AI Resume Generation
 
-![Technical Questions](screenshots/technicalQuestions1.png)
+#### AI-Generated Resume PDF
+![AI Generated Resume](screenshots/AI-Generated-ResumePDF.png)
 
 ---
 
-### 10-Day Preparation Roadmap
+### 💬 AI Interview Preparation
 
+#### Behavioural Interview Questions
+![Behavioural Questions 1](screenshots/behaviouralQuestions1.png)
+
+![Behavioural Questions 2](screenshots/behaviouralQuestions2.png)
+
+#### Technical Interview Questions
+![Technical Questions 1](screenshots/technicalQuestions1.png)
+
+![Technical Questions 2](screenshots/technicalQuestions2.png)
+
+---
+
+### 🗺️ Preparation Roadmap
+
+#### 10-Day Interview Preparation Roadmap
 ![Preparation Roadmap](screenshots/preparationRoadmap.png)
 
 ---
 
-### User Dashboard
+### ⏳ Loading Screen
 
-![Dashboard](screenshots/dashboard1.png)
+![Loading Screen](screenshots/loading.png)
 
 ---
 
