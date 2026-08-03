@@ -27,7 +27,7 @@ const generateInterviewReportController = async(req, res)=>{
         resumeText = resumeContent.text
     }
 
-     if(!resume && !selfDescription){
+     if(!resumeText && !selfDescription){
             return res.status(400).json({
                 message : "Either a resume or a self description is required"
             })
