@@ -1,6 +1,6 @@
 import { Navigate } from "react-router";
 import { useAuth } from "../hooks/useAuth";
-
+import Loading from "../../components/Loading";
 
 
 
